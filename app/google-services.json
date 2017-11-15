@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "154725357642",
+    "firebase_url": "https://versosapp-fb393.firebaseio.com",
+    "project_id": "versosapp-fb393",
+    "storage_bucket": "versosapp-fb393.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154725357642:android:b16006689998a715",
+        "android_client_info": {
+          "package_name": "com.example.oso.versosbiblicos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154725357642-6i9n7kq2qf978tojgl62mb545fo52dt1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oso.versosbiblicos",
+            "certificate_hash": "4c3b42dfe9cdc1f48b217a4470bb9c6fa947650d"
+          }
+        },
+        {
+          "client_id": "154725357642-tjpv8mv410e03rjl3088eue03dpma6p8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsZZrOddIW5_voklS0iV4E47uTNtyIsts"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154725357642-tjpv8mv410e03rjl3088eue03dpma6p8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

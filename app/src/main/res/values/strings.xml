@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VersosBiblicos</string>
+    <string name="info_verso">Jeremías 17:7,8</string>
+    <string name="verso">Pero bendito el hombre que confía en mí, que soy el Señor, y que en mí pone su confianza.
+Ese hombre es como un árbol plantado junto a los arroyos; echa sus raíces junto a las corrientes, y no se da cuenta
+        de cuándo llega el calor; sus hojas siempre están verdes, y en los años de sequía no se marchita ni deja de dar fruto.</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
