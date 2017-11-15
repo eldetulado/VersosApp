@@ -31,14 +31,16 @@ public class MainActivity extends AppCompatActivity {
         list = new ArrayList<>();
 
         reference = FirebaseDatabase.getInstance().getReference();
-        DatabaseReference productoRef = reference.child("productos");
+        DatabaseReference productoRef = reference.child("mensajes");
 
         adapter = new MyAdapter(list);
         rv.setAdapter(adapter);
 
         productoRef.addValueEventListener(new ValueEventListener() {
+
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
+                list.removeAll(list);
                 for(DataSnapshot msgSnapshot : dataSnapshot.getChildren()){
                     Message m = msgSnapshot.getValue(Message.class);
                     list.add(m);
