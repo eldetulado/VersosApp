@@ -8,24 +8,17 @@ public class Message {
 
     }
 
-    public Message(String verseContent, String verseAddres) {
+    public Message(String verseContent, String verseAddress) {
         this.verseContent = verseContent;
-        this.verseAddress = verseAddres;
+        this.verseAddress = verseAddress;
     }
 
     public String getVerseContent() {
         return verseContent;
     }
 
-    public void setVerseContent(String verseContent) {
-        this.verseContent = verseContent;
-    }
-
     public String getVerseAddress() {
         return verseAddress;
     }
 
-    public void setVerseAddress(String verseAddress) {
-        this.verseAddress = verseAddress;
-    }
 }

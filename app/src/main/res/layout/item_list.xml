@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <android.support.v7.widget.CardView
         app:cardElevation="2dp"
@@ -11,40 +11,35 @@
         app:cardBackgroundColor="#00BCD4"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
-        android:layout_height="250dp">
+        android:layout_height="wrap_content">
 
         <LinearLayout
-            android:padding="10dp"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <LinearLayout
-                android:gravity="center_vertical"
+                android:padding="13dp"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="3">
+                android:layout_height="wrap_content">
                 <TextView
                     android:textColor="@android:color/white"
                     android:textSize="16sp"
+                    tools:text="Contenido1"
                     android:id="@+id/textoVerso"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
-            </LinearLayout>
 
-            <RelativeLayout
-                android:gravity="end"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1">
                 <TextView
+                    android:gravity="right"
+                    android:layout_marginTop="10dp"
                     android:textColor="@android:color/white"
-                    android:layout_centerVertical="true"
                     android:id="@+id/textoInfoVerso"
                     android:textStyle="bold|italic"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
+                    tools:text="Jeremias 4,3-1"
                     android:layout_height="wrap_content" />
-            </RelativeLayout>
+            </LinearLayout>
         </LinearLayout>
     </android.support.v7.widget.CardView>
 </LinearLayout>
