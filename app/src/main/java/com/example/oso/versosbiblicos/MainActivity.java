@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         rv.setAdapter(adapter);
 
         if (Utility.verificarInternet(this)){
+            Toast.makeText(this, "Bienvenido", Toast.LENGTH_SHORT).show();
             conectFirebase(productRef);
         }else{
             readDataBase();
